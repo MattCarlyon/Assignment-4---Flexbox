@@ -5,9 +5,10 @@ body {
 
 .flex__example {
     height: 100vh; 
-    background-color: aquamarine;
+    background-color: rgb(58, 5, 5);
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -19,19 +20,16 @@ body {
 
 .container {
     position: relative;
-    width: 70%;
-    min-height: 50%;
     padding: 25px 0;
     display: flex;
     width: 468px;
     height: 160px;
-    left: 98px;
-    top: 90px;
     margin: 20px;
 
     background: #F48C06;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
+    
 
     /*
     justify-content: flex-start;
@@ -76,12 +74,11 @@ body {
 }
 
 .large {
+    
+    display: flex;
     flex-wrap: wrap;
     /*
     flex-wrap: nowrap;
-    flex-wrap: wrap-reverse;
-    */
-    min-height: 50%;
-    background-color: rgb(65, 5, 5);
-    display: flex;
+    flex-wrap: wrap-reverse;*/
 }
+
