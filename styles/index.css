@@ -5,13 +5,17 @@ body {
 
 .container {
     width: 1152px;
-    height: 100vh; 
+    /*height: 100vh;*/ 
+    /*removed height to equalise the borders*/
     background-color: rgb(58, 5, 5);
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
     flex-direction:row;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    /*padding added due to height issue*/
 }
 
 .card1 {
@@ -75,7 +79,6 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     justify-content: space-evenly;
-    /*align-items: stretch;*/
 }
 
 .card6 {
@@ -97,7 +100,10 @@ body {
     width: 78px;
     height: 78px;
     background: #d4151c;
-    border-radius: 4px;
+    border-radius: 4px;   
+    align-items: center;
+    color: white;
+    text-align: center; 
 }
 
 .square1 {
@@ -106,7 +112,9 @@ body {
     width: 78px;
     /*height: 78px;*/
     background: #d4151c;
-    border-radius: 4px;
+    border-radius: 4px; 
+    color: white;
+    text-align: center;
 }
 
 .square2 {
@@ -126,3 +134,4 @@ body {
     background: #d4151c;
     border-radius: 4px;
 }
+    
