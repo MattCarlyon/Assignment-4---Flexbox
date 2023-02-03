@@ -134,4 +134,13 @@ body {
     background: #d4151c;
     border-radius: 4px;
 }
-    
+.square4 {
+    margin: 10px;  
+    width: 78px;
+    height: 78px;
+    background: #d4151c;
+    border-radius: 4px;   
+    align-self: center;
+    color: white;
+    text-align: center; 
+}
